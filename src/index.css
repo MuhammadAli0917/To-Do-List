@@ -1,13 +1,73 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /*background: #0be38d;*/
+  padding: 0;
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+b{
+  font-size: 15px;
+}
+
+svg{
+  width: 15px;
+  margin-left: 5px;
+  background: #EFEFEF;
+  color: #AEAEAE;
+  padding: 3px;
+  margin-top: -2px;
+  cursor: pointer;
+}
+
+.double-icon.done{
+  color: green;
+  /*transition: 1s all linear*/
+}
+
+.title{
+  font-weight: bold;
+}
+
+.title.titleDone{
+  /*transition: 1s all linear;*/
+  color: green;
+  text-decoration-line: line-through;
+}
+
+.date-task.date-done{
+  color: green;
+  /*transition: 1s all linear*/
+}
+
+.star.liked{
+  transition: 0.3s all linear;
+  color: #FCD733;
+}
+
+.title.likedTask{
+  transition: 0.2s all linear;
+  color: #FCD733;
+}
+
+.list{
+  height: 250px;
+  padding: 0 10px 0 0;
+}
+
+.listScroll{
+  overflow-y: scroll;
+}
+
+button{
+  cursor: pointer;
+}
+
+
